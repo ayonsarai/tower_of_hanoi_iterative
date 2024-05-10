@@ -39,6 +39,6 @@ def move_disk(from_peg, to_peg):
     elif len(to_peg) > 0 and (len(from_peg) == 0 or from_peg[-1] > to_peg[-1]):
         from_peg.append(to_peg.pop())
 
-# Test the tower_of_hanoi function with 3 disks
+# Test the tower_of_hanoi function with 6 disks
 tower_of_hanoi(6)
 
